@@ -1,0 +1,85 @@
+
+  @media (min-width: 990px) {
+      
+  }
+
+/* Tablet-pro desktop :1024px. */
+@media  (max-width: 1024px) {
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+/* small mobile :825px. */
+@media (max-width: 840px) {
+  .collapse:not(.show) { display: none !important;}
+  .container-fluid{padding: 0px 25px;}
+  .enquire-now{margin-right: 80px;}
+  .banner-bgm{height: 75vh;}
+  .banner{height: 75vh;}
+  h1{font-size: 45px;}
+  .rs-mb-20{margin-bottom: 20px;}
+  h2{font-size: 32px;}
+  .social-icons{margin-bottom: 20px;}
+  .footer-link{margin-bottom: 15px;}
+  .ayurveda-image{margin-bottom: 20px;}
+  .inner-ayurveda .leaf2{display: none;}
+  .inner-ayurveda{padding-bottom: 30px;}
+  .recent-blog{margin-top: 40px;}
+
+}
+
+/* small mobile :767px. */
+@media (max-width: 767px) {
+  body{font-size: 14px;}
+  .container-fluid{padding: 0px 15px;}
+  .enquire-now button{font-size: 12px;}
+  header{padding: 10px 0px;}
+  .enquire-now{margin-right: 40px;}
+  .navbar-nav .nav-link.active::before, .navbar-nav .nav-link:hover:before{display: none;}
+  .banner, .enduring-legacy, .ayurveda, .contactus, .blogs{padding: 30px 0px;}
+  h1{font-size: 30px;}
+  h2{font-size: 26px;}
+  .banner h1{margin-top: 30px;}
+   .leaf3, .bg-shape2{display: none;}
+  .enduring-legacy ul li{font-size: 14px;}
+  .since{max-width: 120px !important;}
+  .features .col{flex: 1 0 50%;}
+  .features h5{margin-bottom: 20px; font-size: 12px;}
+  .features{padding-bottom: 30px;}
+  .product-bgm{padding: 15px; text-align: center; padding-bottom: 60px;}
+  .product-bgm .learn-more{top: 99%; width: 90%; right: inherit; left: 50%; transform: translate(-50%, 0);}
+  .pepper{top: -220px;}
+  .counter-box h3{font-size: 34px;}
+  footer{padding-top: 30px;}
+  .inner-pages h3{font-size: 30px;}
+  .inner-pages{text-align: center;}
+  .inner-about{padding: 0px 0px 30px;}
+  .about-image img, .ayurveda-image img{max-width: 100%;}
+  .about-image{margin-bottom: 30px;}
+
+
+  
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+  
+}
+
+@media (max-width: 480px) {
+  .call-icon, .whats-up, .top-btn {right: 5px;}
+  .call-icon i, .whats-up i, .top-btn i{ width: 32px; height: 32px; line-height: 32px;}
+  .call-icon{bottom: 47px;}
+  .whats-up{bottom: 84px;}
+  
+}
+
+@media (max-width: 380px) {
+
+}
+ 
