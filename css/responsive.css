@@ -28,6 +28,15 @@
   .inner-ayurveda .leaf2{display: none;}
   .inner-ayurveda{padding-bottom: 30px;}
   .recent-blog{margin-top: 40px;}
+  .product-list .product-box{margin-top: 15px;}
+  .filter-icon{display: block; margin-bottom: 12px;}
+  .filter-icon i{width: 40px; height: 40px; border-radius: 4px; border: 1px solid #663300 ; text-align: center; line-height: 40px;
+  color: #663300;}
+  .category-list{width: 0; overflow-x: hidden; transition: 0.5s; position: fixed; z-index: 1003; top: 0; left: 0; height: 100%;
+  opacity: 0; border-radius: 0px; padding: 0px;}
+  .category-list h4 span i{display: inline-block;}
+  .owl-carousel .owl-nav button.owl-prev{left: 0;}
+  .owl-carousel .owl-nav button.owl-next{left: auto;  right: 0px;}
 
 }
 
@@ -59,7 +68,12 @@
   .inner-about{padding: 0px 0px 30px;}
   .about-image img, .ayurveda-image img{max-width: 100%;}
   .about-image{margin-bottom: 30px;}
-
+  .blog-box-list .blog-img{height: auto;}
+  .blog-box-list .col-5{padding-right: 0px;}
+  .blog-box-list h4{font-size: 14px; margin-bottom: 8px;}
+  .blog-box-list p{font-size: 12px; line-height: 18px; margin-bottom: 8px;}
+  .blog-box-list .learn-more{font-size: 12px;}
+  .blog-box-list .learn-more img{max-width: 20px;}
 
   
 
@@ -76,6 +90,18 @@
   .call-icon i, .whats-up i, .top-btn i{ width: 32px; height: 32px; line-height: 32px;}
   .call-icon{bottom: 47px;}
   .whats-up{bottom: 84px;}
+  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{left: 0px; width: 30px; height: 30px; line-height: 30px;
+  font-size: 12px;}
+  .owl-carousel .owl-nav button.owl-next{left: auto;  right: 0px;}
+  .product-sort select{padding: 0px; font-size: 12px;}
+  .show-items p{font-size: 12px;}
+  .pagination-item{margin-right: 5px; padding: 8px 10px;}
+  .product-list .product-box p{display: none;}
+  .related-product{padding-top: 0px; padding-bottom: 30px;}
+  .product-details{margin-top: 20px;}
+  .product-table table th, .product-table td{padding: 6px; font-size: 12px;}
+  .privacy-policy p, .privacy-policy ul li{font-size: 13px;}
+  .privacy-policy ul{padding-left: 10px;}
   
 }
 

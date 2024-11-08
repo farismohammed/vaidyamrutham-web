@@ -57,20 +57,7 @@
           }
        });
     }
-
-    function getVals(){
-      // Get slider values
-      let parent = this.parentNode;
-      let slides = parent.getElementsByTagName("input");
-        let slide1 = parseFloat( slides[0].value );
-        let slide2 = parseFloat( slides[1].value );
-      // Neither slider will clip the other, so make sure we determine which is larger
-      if( slide1 > slide2 ){ let tmp = slide2; slide2 = slide1; slide1 = tmp; }
-      
-      let displayElement = parent.getElementsByClassName("rangeValues")[0];
-          displayElement.innerHTML = "Rs" + slide1 + " - Rs" + slide2;
-    }
-    
+  
 
     
     var TxtType = function(el, toRotate, period) {
@@ -128,19 +115,6 @@
       css.type = "text/css";
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #663300}";
       document.body.appendChild(css);
-
-       // Initialize Sliders
-       let sliderSections = document.getElementsByClassName("range-slider");
-       for( let x = 0; x < sliderSections.length; x++ ){
-         let sliders = sliderSections[x].getElementsByTagName("input");
-         for( let y = 0; y < sliders.length; y++ ){
-           if( sliders[y].type ==="range" ){
-             sliders[y].oninput = getVals;
-             // Manually trigger event first time to display values
-             sliders[y].oninput();
-           }
-         }
-       }
   };
 
   $(document).ready(function(){
@@ -170,6 +144,45 @@
       autoplayHoverPause:true,
       animateIn: 'fadeIn',
       dots:false,
+      responsive: {
+         0: {
+             items: 2,
+             margin: 10,
+         },
+         600: {
+             items: 3
+         },
+         1000: {
+             items: 4
+         }
+     }
+   });
+   $(".related-slider").owlCarousel({
+      loop:true,
+      items:4,
+      margin:30,
+      nav:true,
+      navText: [
+         "<i class='fas fa-angle-left'></i>",
+         "<i class='fas fa-angle-right'></i>"
+     ],
+      autoplay:true,
+      autoplayTimeout:5000,
+      autoplayHoverPause:true,
+      animateIn: 'fadeIn',
+      dots:false,
+      responsive: {
+         0: {
+             items: 2,
+             margin: 10,
+         },
+         600: {
+             items: 2
+         },
+         1000: {
+             items: 5
+         }
+     }
    });
   });
 
@@ -206,6 +219,8 @@ topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
 // On scroll, Show/Hide the btn with animation
 window.onscroll = () => topBtn.style.opacity = window.scrollY > 500 ? 1 : 0;
+
+
 
 
  });
