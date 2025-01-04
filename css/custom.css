@@ -46,8 +46,11 @@ display: inline-block; margin-bottom: 15px; cursor: pointer;}
 .product-box img{border-radius: 12px; margin-bottom: 20px;}
 .product-box h5{margin-bottom: 15px; font-weight: 600; display: -webkit-box; -webkit-line-clamp:1; line-clamp: 1; -webkit-box-orient: vertical;   overflow: hidden;}
 .product-box p{ display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;   overflow: hidden;}
-.product-box button, .btn-primary{width: 100%; max-width: 160px; border: none; border-radius: 30px; background: var(--secondary-colour);
+.product-box button, .btn-primary{width: 100%; max-width: 130px; border: none; border-radius: 30px; background: var(--secondary-colour);
 color: var(--white); height: 45px;}
+.btn-secondary{width: 100%; max-width: 130px; border: none; border-radius: 30px; background: #ffa41c !important;
+  color: var(--white); height: 45px;}
+.btn-secondary:hover{background: #232f3e !important; color: var(--white);}
 .product-box button:hover,.btn-primary:hover, .product-box button:focus,.btn-primary:focus{background: var(--primary-colour); color: var(--white);}
 .enquiry-pop .modal-body{background: var(--bg-colour); border-radius: 12px; position: relative; overflow: hidden; z-index: 1;}
 .enquiry-pop .modal-close{position: absolute; right: 15px; top: 15px; font-size: 20px; cursor: pointer;}
@@ -236,6 +239,10 @@ color: var(--secondary-colour);}
 .privacy-policy ul li{position: relative; padding-left: 24px; padding-bottom: 10px;}
 .privacy-policy ul li::before{content: "\f111"; font-family: "Font Awesome 6 Free"; font-weight: 400; position: absolute; left: 0px;
 top: 0px; color: var(--secondary-colour);}
+.amazon-products{max-width: 100px; position: absolute; left: 20px; top: 20px;}
+.amazon-products img{border-radius: 0px;}
+.product-title h5 span img{max-height: 20px;}
+.product-box .amazon-products{max-width: 60px; top: 50px; left: 30px; border-radius: 0px; }
 
  :root {
     --primary-colour: #663300;
