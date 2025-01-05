@@ -243,6 +243,8 @@ top: 0px; color: var(--secondary-colour);}
 .amazon-products img{border-radius: 0px;}
 .product-title h5 span img{max-height: 20px;}
 .product-box .amazon-products{max-width: 60px; top: 50px; left: 30px; border-radius: 0px; }
+.btn-amazon{padding: 0px; background: #000 !important; border-radius: 30px;}
+.btn-amazon img{width: 100%; margin: 0px; height: 43px; border-radius: 30px;}
 
  :root {
     --primary-colour: #663300;
